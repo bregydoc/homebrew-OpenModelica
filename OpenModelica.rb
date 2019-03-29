@@ -19,7 +19,7 @@ class Openmodelica < Formula
   depends_on "gettext"
   depends_on "gnu-sed" =>:build
   depends_on "libtool" =>:build
-  depends_on "homebrew/science/lp_solve"
+  depends_on "brewsci/science/lp_solve"
   depends_on "openblas"
   depends_on "pkg-config" =>:build
   depends_on "readline" =>:build
